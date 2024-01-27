@@ -16,7 +16,7 @@ Follow these steps to reproduce the results and deploy the model:
 
 2. **Model Training:** The Jupyter Notebook (`model_training.ipynb`) illustrates the application of Linear Regression and Random Forest algorithms. The best model is saved for deployment.
 
-3. **Flask API Deployment:** The `app.py` file contains a Flask API to deploy the trained model. Run `python app.py` to start the server.
+3. **Flask API Deployment:** The py file contains a Flask API to deploy the trained model. Run `app` to start the server.
 
 4. **React Integration:** Refer to the `react_integration` directory for the React front-end code. Follow the README in that directory for setup instructions.
 
@@ -34,7 +34,7 @@ Metrics such as R2 Score, MAE, MSE, RMSE (for regression), and Accuracy, Confusi
 ## Folder Structure
 
 - `model_training.ipynb`: Jupyter Notebook for model training and evaluation.
-- `app.py`: Flask API for model deployment.
+- Flask API for model deployment.
 - `react_integration`: React front-end integration code.
 
 For detailed instructions on deploying the model and integrating it with React, refer to the respective sections above. Feel free to reach out for any questions or improvements. Happy coding!
